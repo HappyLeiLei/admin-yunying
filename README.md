@@ -2,4 +2,4 @@
 
 模板出处https://github.com/zuiidea/antd-admin
 
-详细模板内容请阅读
+详细模板内容请阅读https://github.com/HappyLeiLei/admin-yunying/blob/master/atuo.md
