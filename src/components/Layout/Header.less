@@ -1,0 +1,60 @@
+@import '~themes/vars';
+
+.header {
+  position : relative;
+  z-index : 999;
+  display : flex;
+  height : 47px;
+  background-color : #fff;
+  box-shadow : @shadow-2;
+
+  justify-content : space-between;
+  :global .ant-menu-horizontal {
+    display : inline-block;
+    border : none;
+    & > .ant-menu-submenu {
+      float : right;
+    }
+  }
+
+  .rightWarpper {
+    display : flex;
+    padding-right : 16px;
+  }
+
+  .button {
+    width : 47px;
+    height : 47px;
+    font-size : 18px;
+    line-height : 47px;
+    cursor : pointer;
+    transition : @transition-ease-in;
+    text-align : center;
+
+    &:hover {
+      color : @primary-color;
+      background-color : fade(@primary-color, 15%);
+    }
+  }
+}
+
+.popovermenu {
+  width : 280px;
+  margin-left : 6px;
+
+  :global .ant-popover-inner-content {
+    padding : 0;
+
+    .ant-menu-inline .ant-menu-item,
+    .ant-menu-vertical .ant-menu-item {
+      height : 48px;
+      line-height : 48px;
+      border-right : 0;
+    }
+
+    .ant-menu-inline .ant-menu-item-selected,
+    .ant-menu-inline .ant-menu-selected {
+      border-right : 0;
+    }
+  }
+}
