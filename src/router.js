@@ -63,6 +63,11 @@ const Routers = function ({ history, app }) {
       models: () => [import('./models/post')],
       component: () => import('./routes/post/'),
     },
+    // 管理后台路由
+    {
+      path: '/UIElement/dataTableForAttr',
+      component: () => import('./routes/UIElement/dataTabelForAttr/'),
+    },
   ]
 
   return (

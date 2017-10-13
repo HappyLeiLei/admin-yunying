@@ -2,9 +2,9 @@ const APIV1 = '/api/v1'
 const APIV2 = '/api/v2'
 
 module.exports = {
-  name: '51有色管理后台',
+  name: '51有色运营管理后台',
   prefix: '51Admin',
-  footerText: '51有色管理后台  © 2017 金汇通',
+  footerText: '51有色运营管理后台  © 2017 金汇通',
   logo: '/images/logo.png',
   iconFontCSS: '/iconfont.css',
   iconFontJS: '/iconfont.js',
